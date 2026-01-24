@@ -1,0 +1,6 @@
+results/
+*.bam
+*.sam
+*.fastq.gz
+*.fq.gz
+slurm-*.out
