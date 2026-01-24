@@ -46,6 +46,7 @@ apptainer exec --bind /data:/data "$CONTAINER" fastqc \
     "$INPUT_DIR"/${sample}_2_trimmed.fastq.gz \
     -o "$OUTPUT_DIR" \
     -t $SLURM_CPUS_PER_TASK
+    
 
 
 

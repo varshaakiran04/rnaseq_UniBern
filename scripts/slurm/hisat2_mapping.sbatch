@@ -20,7 +20,7 @@ CONTAINER="/containers/apptainer/hisat2_samtools_408dfd02f175cd88.sif"
 
 INDEX_PREFIX="/data/users/vkiran/rnaseq_UniBern/reference/hisat2_index/genome"
 READS_DIR="/data/users/vkiran/rnaseq_UniBern/results/fastp"
-OUT_DIR="/data/users/vkiran/rnaseq_UniBern/results/bam"
+OUTPUT_DIR="/data/users/vkiran/rnaseq_UniBern/results/bam"
 
 # Ensure output directory exists
 mkdir -p "$OUT_DIR"
